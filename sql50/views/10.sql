@@ -1,0 +1,1 @@
+SELECT COUNT(*) AS "Total Prints", "artist" FROM "views" WHERE "brightness" >= 0.5 GROUP BY "artist" ORDER BY "artist" DESC;

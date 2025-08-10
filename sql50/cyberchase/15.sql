@@ -1,0 +1,1 @@
+SELECT strftime("%Y","air_date"), MIN(strftime("%m-%d", "air_date")) FROM "episodes" GROUP BY strftime("%Y","air_date");
